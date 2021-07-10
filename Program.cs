@@ -12,8 +12,8 @@ namespace NullCSharp
       double? x = null;
       double? y = 10.0;
 
-      x = x ?? 0.0;
-      y = y ?? 0.0;
+      x ??= 0.0;
+      y ??= 0.0;
       Console.WriteLine(x.Value);
       Console.WriteLine(y.Value);
     }
