@@ -12,6 +12,8 @@ namespace NullCSharp
       double? x = null;
       double? y = 10.0;
 
+      x = x ?? 0.0;
+      y = y ?? 0.0;
       // check if x is null
       // if (x.HasValue)
         Console.WriteLine(x.Value);
