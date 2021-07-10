@@ -14,17 +14,8 @@ namespace NullCSharp
 
       x = x ?? 0.0;
       y = y ?? 0.0;
-      // check if x is null
-      // if (x.HasValue)
-        Console.WriteLine(x.Value);
-      // else
-        // Console.WriteLine("X is null");
-
-      // check if y is null
-      // if (y.HasValue)
-        Console.WriteLine(y.Value);
-      // else
-        // Console.WriteLine("Y is null");
+      Console.WriteLine(x.Value);
+      Console.WriteLine(y.Value);
     }
   }
 }
