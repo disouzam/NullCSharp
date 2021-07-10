@@ -13,16 +13,16 @@ namespace NullCSharp
       double? y = 10.0;
 
       // check if x is null
-      if (x.HasValue)
+      // if (x.HasValue)
         Console.WriteLine(x.Value);
-      else
-        Console.WriteLine("X is null");
+      // else
+        // Console.WriteLine("X is null");
 
       // check if y is null
-      if (y.HasValue)
+      // if (y.HasValue)
         Console.WriteLine(y.Value);
-      else
-        Console.WriteLine("Y is null");
+      // else
+        // Console.WriteLine("Y is null");
     }
   }
 }
